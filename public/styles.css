@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #f8f9fa; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the todo list */
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue */
+    text-align: center; /* Center-align the title */
+}
+
+/* Input field for adding todos */
+input[type="text"] {
+    width: calc(100% - 22px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Light gray */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+}
+
+/* Individual todo item styling */
+.todo-item {
+    background-color: #f0f0f0; /* Light gray */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+}
+
+/* Delete button styling */
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto; /* Push button to the right */
+    width: 100px; 
+}
+
+/* Delete button hover effect */
+.delete-button:hover {
+    background-color: #c82333; /* Darker red */
+}
